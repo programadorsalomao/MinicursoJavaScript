@@ -1,0 +1,16 @@
+meu-projeto/
+│
+├── css/
+│   ├── estilo.css
+│   └── outro-estilo.css
+│
+├── js/
+│   ├── script.js
+│   └── outro-script.js
+│
+├── img/
+│   ├── imagem1.jpg
+│   ├── imagem2.png
+│   └── outro-imagem.png
+│
+└── index.html

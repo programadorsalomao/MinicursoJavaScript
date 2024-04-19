@@ -1,0 +1,84 @@
+* {
+
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+
+body {
+
+  background-color: #000;
+
+}
+
+.tela {
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  width: 864px;
+  height: 516px;
+  border-width: 2px;
+  border-color: chartreuse;
+  border-style: solid;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.fundo {
+
+  margin: 0px;
+  position: absolute;
+
+}
+
+.passaro {
+
+  position: absolute;
+  bottom: 190px;
+  left: 25px;
+
+}
+
+.base {
+
+  position: absolute;
+  bottom: 0px;
+
+}
+
+.cano-topo {
+
+  position: absolute;
+  transform: rotate(180deg);
+  top: -100px;
+
+}
+
+.cano-rodape {
+
+  position: absolute;
+  top: 360px;
+
+}
+
+.game-over {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+
+}
+
+.score {
+
+  display: block;
+  position: absolute;
+  left: 25px;
+  bottom: 20px;
+
+}
